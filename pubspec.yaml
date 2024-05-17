@@ -1,0 +1,26 @@
+name: cart_example
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.4
+  cached_network_image: ^3.3.1
+  carousel_slider: ^4.2.1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  http: ^1.2.1
+  toastification: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
