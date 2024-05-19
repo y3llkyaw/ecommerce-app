@@ -1,7 +1,6 @@
 import 'package:cart_example/logic/blocs/product/product_bloc.dart';
 import 'package:cart_example/screens/product_detail.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class Home extends StatefulWidget {
@@ -68,7 +67,7 @@ class _HomeState extends State<Home> {
                                         children: [
                                           Hero(
                                             tag:
-                                                'item-${state.products[index].images[0]}',
+                                                'item-${state.products[index].id}',
                                             child: ClipRRect(
                                               borderRadius:
                                                   BorderRadius.circular(10),
